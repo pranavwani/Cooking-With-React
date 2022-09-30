@@ -9,7 +9,10 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ backgroundColor: theme }}>
+      Class Component
       <Counter initialCount={0} />
+
+      Functional Component
       <CounterHooks initialCount={0} />
 
       <button onClick={() => {
