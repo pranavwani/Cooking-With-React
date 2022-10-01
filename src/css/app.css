@@ -1,0 +1,23 @@
+/* make the css default for all browsers */
+@import-normalize;
+@import 'buttons.css';
+@import 'recipe-list.css';
+@import 'ingredient-list';
+@import 'recipe.css';
+
+*, *::before, *::after {
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 25px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mr-1 {
+    margin-right: 5px;
+}
