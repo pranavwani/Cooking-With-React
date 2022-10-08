@@ -3,10 +3,12 @@
 @import 'buttons.css';
 @import 'recipe-list.css';
 @import 'ingredient-list';
+@import 'recipe-edit.css';
 @import 'recipe.css';
 
 *, *::before, *::after {
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 html {
